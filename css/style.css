@@ -206,7 +206,8 @@ header .icons #menu-bars{
     align-items: center;
     flex-wrap: wrap;
     gap:2rem; 
-    padding-top: 9rem;
+    padding-top: 15rem;
+    padding-bottom: 3.8rem;
 }
 
 .home .home-slider .slide .content{
@@ -236,6 +237,10 @@ header .icons #menu-bars{
     font-size: 2.2rem;
     padding:.5rem 0;
     line-height: 1.5;
+}
+
+.swiper-pagination{
+    margin-bottom: 20px;
 }
 
 .swiper-pagination-bullet-active{
