@@ -82,6 +82,22 @@ header .logo{
     font-weight: bolder;
 }
 
+header .logo .bungkus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .logo .bungkus img{
+    margin-top: 5px;
+    width: 60px;
+    height: 60px;
+}
+
+header .logo .bungkus span{
+    margin-left: 5px;
+}
+
 header .logo i{
     color:var(--terang);
     margin-right: 10px;
